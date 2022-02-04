@@ -31,8 +31,8 @@ sudo mysqldump --add-drop-table -u root wordpressDB > wordpressDB.sql</li></ul>
 sudo rm -fR /var/www/wordpress</li><li>sudo systemctl reload apache2
 </li>
 <li>sudo mysql -uroot -e "create database wordpressDB;"</li>
-<li>sudo mysql -uroot -e "CREATE USER 'wordpressUser'@'127.0.0.1' IDENTIFIED BY 'wpUserP@ss4wpDB';"</li>
-<li>sudo mysql -uroot -e "GRANT ALL PRIVILEGES ON wordpressDB.* TO 'wordpressUser'@'127.0.0.1';"</li>
+<li>sudo mysql -uroot -e "CREATE USER 'wordpressUser'@'localhost' IDENTIFIED BY 'dbrootuser';"</li>
+<li>sudo mysql -uroot -e "GRANT ALL PRIVILEGES ON wordpressDB.* TO 'wordpressUser'@'localhost';"</li>
 <li>sudo mysql -uroot -e "flush privileges;"</li>
 <li>sudo mysql -uroot wordpressDB < ~/wordpressDB.sql</li>
 
