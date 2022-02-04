@@ -14,7 +14,7 @@ PubkeyAuthentication yes, #GSSAPIAuthentication yes,
 <li>ssh target Ip</li>
 </ul>
 <h6>File Transfer</h6>
-<ul><li>ssh-keygen -R IP
+<ul><li>ssh-keygen -R IP for host key verification failed
 </li>
 <li>scp -i ec2_instance_1.pem ec2_instance_2.pem ubuntu@ec2_1_inst_IP:~
 </li>
