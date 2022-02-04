@@ -14,8 +14,9 @@ PubkeyAuthentication yes, #GSSAPIAuthentication yes,
 <li>ssh target Ip</li>
 </ul>
 <h6>File Transfer</h6>
-<ul>
-<li>$ scp -i ec2_instance_1.pem ec2_instance_2.pem ubuntu@ec2_1_inst_IP:~
+<ul><li>ssh-keygen -R IP
+</li>
+<li>scp -i ec2_instance_1.pem ec2_instance_2.pem ubuntu@ec2_1_inst_IP:~
 </li>
 <li>ssh -i ec2_instance_1.pem ubuntu@ec2_inst_1</li>
 <li>scp -i ec2_instance_2.pem file.tar.gz ubuntu@ec2_inst_2:~</li>
