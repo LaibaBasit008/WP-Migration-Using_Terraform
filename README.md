@@ -41,7 +41,7 @@ sudo rm -fR /var/www/wordpress</li><li>sudo systemctl reload apache2
 <li>sudo systemctl reload apache2
 
 </li>
-<li>
+  <li>Reload the URL</li>
 
 
 </ul>
