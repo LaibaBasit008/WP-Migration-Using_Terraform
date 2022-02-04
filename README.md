@@ -1,6 +1,6 @@
 # WP-Migration-Using_Terraform
 <h3>Wp Site</h3>
-<p>Set up Wordpress with Lamp on both ec2 instnces</p>
+<p>Set up Wordpress with Lamp on both ec2 instnces and sudo passwd username</p>
 <h3>File Transfer</h3>
 <ul><h6>Run these command on both ec2 instances for permission</h6>
 <li>sudo nano /etc/ssh/sshd_config</li>
