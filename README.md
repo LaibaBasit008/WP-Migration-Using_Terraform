@@ -18,7 +18,7 @@ PubkeyAuthentication yes, #GSSAPIAuthentication yes,
 <li>$ scp -i ec2_instance_1.pem ec2_instance_2.pem ubuntu@ec2_1_inst_IP:~
 </li>
 <li>ssh -i ec2_instance_1.pem ubuntu@ec2_inst_1</li>
-<li>scp -i ec2_instance_2.pem file.zip ubuntu@ec2_inst_2:~</li>
+<li>scp -i ec2_instance_2.pem file.tar.gz ubuntu@ec2_inst_2:~</li>
 </ul>
 <h3>WordPress Database Setup</h3>
 <h6>Instance 01</h6>
